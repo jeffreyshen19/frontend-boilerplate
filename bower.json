@@ -1,0 +1,22 @@
+{
+  "name": "frontend-boilerplate",
+  "description": "A gulp/pug/SCSS frontend development boilerplate",
+  "main": "index.js",
+  "authors": [
+    "Jeffrey Shen"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1",
+    "font-awesome": "^4.7.0"
+  }
+}
