@@ -28,7 +28,7 @@ gulp.task('lint', function() {
     .pipe(jshint.reporter('default'))
     .on("error", notify.onError(function (error) {
         return "Error: " + error.message;
-    }));;
+    }));
 });
 
 gulp.task('imagemin', function () {
@@ -37,7 +37,7 @@ gulp.task('imagemin', function () {
     .pipe(gulp.dest('dist/images'))
     .on("error", notify.onError(function (error) {
         return "Error: " + error.message;
-    }));;
+    }));
 });
 
 gulp.task('sass', function () {
@@ -46,7 +46,7 @@ gulp.task('sass', function () {
     .pipe(gulp.dest('dist/CSS'))
     .on("error", notify.onError(function (error) {
         return "Error: " + error.message;
-    }));;
+    }));
 });
 
 gulp.task('compressjs', function() {
