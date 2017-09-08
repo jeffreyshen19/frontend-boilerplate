@@ -55,7 +55,7 @@ gulp.task('compressjs', function() {
     .pipe(gulp.dest('dist/JS'))
     .on("error", notify.onError(function (error) {
         return "Error: " + error.message;
-    }));;
+    }));
 });
 
 gulp.task('webserver', function() {
